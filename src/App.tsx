@@ -412,7 +412,7 @@ const App: React.FC = () => {
               required
             />
             <FileUploadInfo>
-              Accepted formats: JPEG, PNG, GIF, PDF (Max size: 5MB)
+              Accepted formats: JPEG, PNG,PDF (Max size: 5MB)
             </FileUploadInfo>
             {fileError && <ErrorMessage>{fileError}</ErrorMessage>}
             {file && <FileUploadInfo>File selected: {file.name}</FileUploadInfo>}
